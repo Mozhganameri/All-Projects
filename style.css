@@ -95,4 +95,32 @@
   .shadow {
     box-shadow: var(--box-shadow);
   }
+
+  .textStart{
+text-align: start;
+  }
   
+  @media (max-width : 767px) {
+     
+   h1{
+       font-size: 70px;
+   }
+   h2{
+       text-align: center !important;
+   }
+   p{
+       text-align: center;
+   }
+   .changeWidth{
+       width: 100%;
+   }
+
+   .img-fluid{
+        display: none;
+   }
+
+   .centerClass{
+         justify-content: center !important; 
+   }
+   
+  }
